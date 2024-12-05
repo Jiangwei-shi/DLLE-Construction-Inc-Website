@@ -374,6 +374,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@mantinex/mantine-logo@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@mantinex/mantine-logo@npm:1.0.1"
+  peerDependencies:
+    "@mantine/core": ">=7.0.0"
+    "@mantine/hooks": ">=7.0.0"
+    react: ^18.2.0
+    react-dom: ^18.2.0
+  checksum: 10c0/d1628195eaf6681c4366c0154ee2e3adf1b863432ab15e6285a3f33ffbb33a17ec0b5a90a9ced2429cbf2841d4de11f72320ca3d37578d6908a5b9f194fea2d3
+  languageName: node
+  linkType: hard
+
 "@next/env@npm:15.0.1":
   version: 15.0.1
   resolution: "@next/env@npm:15.0.1"
@@ -514,6 +526,24 @@ __metadata:
   dependencies:
     tslib: "npm:^2.4.0"
   checksum: 10c0/b9df578401fc62405da9a6c31e79e447a2fd90f68b25b1daee12f2caf2821991bb89106f0397bc1acb4c4d84a8ce079d04b60b65f534496952e3bf8c9a52f40f
+  languageName: node
+  linkType: hard
+
+"@tabler/icons-react@npm:^3.24.0":
+  version: 3.24.0
+  resolution: "@tabler/icons-react@npm:3.24.0"
+  dependencies:
+    "@tabler/icons": "npm:3.24.0"
+  peerDependencies:
+    react: ">= 16"
+  checksum: 10c0/b47b32eaefacc99714158cbe0684ee7fae26a6dcd424493367abf0cbd74bf6dc43b2bc7ea9990ac194c20f79914650c060c1fef5e47e0a69ff4a36f7ecd75bdd
+  languageName: node
+  linkType: hard
+
+"@tabler/icons@npm:3.24.0":
+  version: 3.24.0
+  resolution: "@tabler/icons@npm:3.24.0"
+  checksum: 10c0/7f8abb6175a7c233cbe38aaac3b1198b312b9d873c6276d06fa48a9616397bfeac93ba850023940678471da61868c57efed45653c6ab450608f63ff78a49d6b5
   languageName: node
   linkType: hard
 
@@ -2662,6 +2692,8 @@ __metadata:
   dependencies:
     "@mantine/core": "npm:7.14.3"
     "@mantine/hooks": "npm:7.14.3"
+    "@mantinex/mantine-logo": "npm:^1.0.1"
+    "@tabler/icons-react": "npm:^3.24.0"
     "@types/node": "npm:20.14.8"
     "@types/react": "npm:18.3.3"
     "@types/react-dom": "npm:18.3.0"
