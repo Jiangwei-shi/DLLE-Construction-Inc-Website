@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "stylelint": "stylelint '**/*.css' --cache"
   },
   "dependencies": {
     "@mantine/core": "7.14.3",
@@ -15,7 +16,9 @@
     "@tabler/icons-react": "^3.24.0",
     "next": "15.0.1",
     "react": "18.3.1",
-    "react-dom": "18.3.1"
+    "react-dom": "18.3.1",
+    "stylelint": "^16.11.0",
+    "stylelint-config-standard-scss": "^14.0.0"
   },
   "devDependencies": {
     "@types/node": "20.14.8",
