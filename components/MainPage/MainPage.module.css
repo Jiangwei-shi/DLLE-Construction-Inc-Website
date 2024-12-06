@@ -1,0 +1,42 @@
+.backgroundContainer {
+    position: relative;
+    width: 100%;
+    height: 100vh; /* 占满视口高度 */
+    overflow: hidden;
+    display: flex;
+    /* 定义 Flex 容器内项目的排列方向 */
+    flex-direction: column;
+    /* 在 Flex 容器的主轴方向上对齐 Flex 项目 */
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.backgroundVideo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100vw; /* 占满视口宽度 */
+    height: 100vh; /* 占满视口高度 */
+    object-fit: cover; /* 保持比例且填满视口 */
+    z-index: -1; /* 视频置于背景 */
+}
+
+.content-overlay {
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.title {
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 60px; /* 大标题的字体大小 */
+    color: #ffff;
+}
+
