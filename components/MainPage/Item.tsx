@@ -8,14 +8,13 @@ export default function Item({title, desc, descLink, backgroundImg,leftBtnText,
                                  leftBtnLink,rightBtnText,rightBtnLink,twoButtons}){
     return (
     <div style={{backgroundImage: `url(${backgroundImg})`}} className={classes.itemBackground}>
-        <Container size={420} className={classes.container}>
-            <Text weight={500} size="lg" className={classes.title}>{title}</Text>
-            <Text size="sm" className={classes.title}>
-                <a href={descLink} target="_blank" rel="noopener noreferrer"
-                   className={classes.descriptionLink}>{desc}</a>
-            </Text>
-            <Group position="center" mt="md">
-                <Button component="a" href={leftBtnLink} target="_blank" variant="white">
+        <Container className={classes.container}>
+            <Text className={classes.title}>{title}</Text>
+            {/*<Text className={classes.descriptionLink}>*/}
+            {/*    <a href={descLink} target="_blank" rel="noopener noreferrer">{desc}</a>*/}
+            {/*</Text>*/}
+            <Group justify="space-between" grow mt="md" ml="xl" mr = "xl">
+                <Button component="a" href={leftBtnLink} target="_blank" variant="filled">
                     {leftBtnText}
                 </Button>
                 {twoButtons && (

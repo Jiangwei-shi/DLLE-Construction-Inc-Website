@@ -1,26 +1,36 @@
-/* Item.module.css */
 .itemBackground {
     height: 100vh;
     width: auto;
     background-size: cover;
     background-position: center;
     display: flex;
+    /* 定义 Flex 容器内项目的排列方向 */
     flex-direction: column;
-    justify-content: center;
+    /* 在 Flex 容器的主轴方向上对齐 Flex 项目 */
+    justify-content: flex-start;
     align-items: center;
 }
 
 .container {
     background-color: transparent;
     padding: 20px;
+    width: auto;
     border-radius: 8px;
+    margin-top: 30px;
+    /* align-items: center; !* 水平居中 *! */
+    /* justify-content: center; !* 垂直居中 *! */
+    /* text-align: center; !* 确保文本对齐居中 *! */
 }
 
 .title {
-    color: #fff;
     margin-bottom: 1rem;
+    width: 100%;
+    font-size: 60px; /* 大标题的字体大小 */
+    color: #ffff;
 }
 
 .descriptionLink {
-    color: #fff;
+    font-size: 30px; /* 描述文字的字体大小 */
+    color: #ffff;
+    width: 100%;
 }
