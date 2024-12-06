@@ -3,15 +3,50 @@
 import {SimpleGrid} from "@mantine/core";
 import Item from "./Item";
 
+
 export default function MainPage(){
-    const pictureUrl = "/1.jpg"
+    const pictureUrl1 = "/1.jpg"
+    const pictureUrl2 = "/2.jpg"
     return (
-    <SimpleGrid cols={1} spacing="xs" verticalSpacing="xs">
+    <SimpleGrid cols={1} spacing="0" verticalSpacing="0">
         <Item
             title="picture1"
             desc="desc"
             descLink=""
-            backgroundImg={pictureUrl}
+            backgroundImg={pictureUrl1}
+            leftBtnText="left"
+            leftBtnLink=""
+            rightBtnText="right"
+            rightBtnLink=""
+            twoButtons={true}
+        />
+        <Item
+            title="picture1"
+            desc="desc"
+            descLink=""
+            backgroundImg={pictureUrl2}
+            leftBtnText="left"
+            leftBtnLink=""
+            rightBtnText="right"
+            rightBtnLink=""
+            twoButtons={true}
+        />
+        <Item
+            title="picture1"
+            desc="desc"
+            descLink=""
+            backgroundImg={pictureUrl2}
+            leftBtnText="left"
+            leftBtnLink=""
+            rightBtnText="right"
+            rightBtnLink=""
+            twoButtons={true}
+        />
+        <Item
+            title="picture1"
+            desc="desc"
+            descLink=""
+            backgroundImg={pictureUrl2}
             leftBtnText="left"
             leftBtnLink=""
             rightBtnText="right"

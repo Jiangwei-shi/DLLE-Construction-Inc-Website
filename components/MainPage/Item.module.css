@@ -1,0 +1,26 @@
+/* Item.module.css */
+.itemBackground {
+    height: 100vh;
+    width: auto;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.title {
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.descriptionLink {
+    color: #fff;
+}
