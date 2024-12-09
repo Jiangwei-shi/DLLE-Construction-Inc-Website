@@ -1,6 +1,5 @@
 import { IconBrandInstagram, IconBrandTwitter, IconBrandYoutube } from '@tabler/icons-react';
 import { ActionIcon, Container, Group, Text } from '@mantine/core';
-import { MantineLogo } from '@mantinex/mantine-logo';
 import classes from './Footer.module.css';
 
 const data = [
@@ -59,7 +58,7 @@ export default function Footer() {
         <footer className={classes.footer}>
             <Container className={classes.inner}>
                 <div className={classes.logo}>
-                    <MantineLogo size={30} />
+                    <Text> DELL </Text>
                     <Text size="xs" c="dimmed" className={classes.description}>
                         Build fully functional accessible web applications faster than ever
                     </Text>

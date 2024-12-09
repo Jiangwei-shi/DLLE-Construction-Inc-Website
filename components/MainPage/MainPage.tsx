@@ -75,8 +75,10 @@ export default function MainPage(){
                     Your browser does not support the video tag.
                 </video>
                 <div className="content-overlay">
-                    <Text className={classes.title}>
-                        开始装修
+                    <Text
+                        fw={700}
+                        className={classes.title}>
+                        Steve‘s construction LLC
                     </Text>
                 </div>
             </div>

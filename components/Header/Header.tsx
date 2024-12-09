@@ -28,7 +28,6 @@ import {
     useMantineTheme,
 } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
-import { MantineLogo } from '@mantinex/mantine-logo';
 import classes from './Header.module.css';
 
 const mockdata = [
@@ -91,7 +90,7 @@ export default function Header() {
         <Box>
             <header className={classes.header}>
                 <Group justify="space-between" h="100%">
-                    <MantineLogo size={30} />
+                    <Text size="xl" fw={700} c="white"> DELL </Text>
 
                     <Group h="100%" gap={0} visibleFrom="sm">
                         <a href="#" className={classes.link}>
@@ -147,8 +146,7 @@ export default function Header() {
                     </Group>
 
                     <Group visibleFrom="sm">
-                        <Button variant="default">Log in</Button>
-                        <Button>Sign up</Button>
+                        <Button>get an quote</Button>
                     </Group>
 
                     <Burger opened={drawerOpened} onClick={toggleDrawer} hiddenFrom="sm" />
@@ -190,8 +188,7 @@ export default function Header() {
                     <Divider my="sm" />
 
                     <Group justify="center" grow pb="xl" px="md">
-                        <Button variant="default">Log in</Button>
-                        <Button>Sign up</Button>
+                        <Button>get an quote</Button>
                     </Group>
                 </ScrollArea>
             </Drawer>

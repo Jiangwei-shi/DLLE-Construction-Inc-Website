@@ -23,17 +23,16 @@
 }
 
 .content-overlay {
-    position: relative;
+    position: absolute;
     z-index: 1;
     color: white;
-    text-align: center;
+    text-align: left;
     top: 50%;
     transform: translateY(-50%);
-
 }
 
 .title {
-    margin-top: 3rem;
+    margin-top: 10rem;
     margin-bottom: 1rem;
     width: 100%;
     font-size: 60px; /* 大标题的字体大小 */
